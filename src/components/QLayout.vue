@@ -6,14 +6,14 @@ import QRow from "./QRow.vue";
 </script>
 
 <template>
-<div class="min-h-screen flex flex-col">
+<div>
   <div class="border-b">
-    <header class="max-w-screen-2xl mx-auto w-full">
+    <header>
       <slot name="header"></slot>
     </header>
   </div>
 
-  <div class="flex flex-1 max-w-screen-2xl mx-auto w-full">
+  <div>
     <QRow>
       <template #sidebar>
         <aside class="pr-8 border-r py-6 h-full">

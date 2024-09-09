@@ -1,9 +1,9 @@
 <template>
-<div class="flex w-full px-4 lg:px-8">
-  <div class="hidden lg:block lg:basis-[220px]">
+<div>
+  <div>
     <slot name="sidebar" />
   </div>
-  <div class="pl-0 lg:pl-8 flex-1">
+  <div>
     <slot />
   </div>
 </div>
